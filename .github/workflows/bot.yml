@@ -31,7 +31,7 @@ jobs:
       - name: Push changes with rebase
         run: |
           git add -A
-          git commit -m "V0.2 🚀 - $(TZ='Asia/Tehran' date '+%Y-%m-%d %H:%M:%S')"
+          git commit -m "V0.2 🚀 - $(TZ='Asia/Shanghai' date '+%Y-%m-%d %H:%M:%S')"
           git push
         env:
           GITHUB_TOKEN: ${{ secrets.PUSH_BOT }}
