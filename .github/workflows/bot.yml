@@ -26,7 +26,7 @@ jobs:
         run: |
           git config --global user.email "vip.mahditaheri@gmail.com"
           git config --global user.name "MhdiTaheri"
-          git remote set-url origin https://github.com/MhdiTaheri/V2rayCollector.git
+          git push
       
       - name: Push changes with rebase
         run: |
